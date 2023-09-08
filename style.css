@@ -329,23 +329,23 @@ padding: 30px;
 }
   
 #sm-banner h4{
-  color: black;
+  color: white;
   font-size: 20px;
   font-weight: 300;
 }
 #sm-banner h2{
-  color: blueviolet;
+  color:rgb(196, 207, 133);
   font-size: 28px;
   font-weight: 800;
 }
 #sm-banner span{
-  color: black;
+  color: white;
   font-size: 14px;
   font-weight: 500;
   padding-bottom: 50px;
 }
 #sm-banner .banner-box:hover button{
-  background: #088178;
+  background: #b6e2df;
   border: 1px solid #088178;
 }
 #banner3{
@@ -375,12 +375,12 @@ margin-bottom: 20px;
   background-image: url("img/banner3.2.jpg");
 }
 #banner3 h2{
-  color: black;
+  color: white;
   font-weight: 800;
   font-size: 15px;
 }
 #banner3 h3{
-  color: black;
+  color:white;
   font-weight: 500;
   font-size: 10px;
 }
