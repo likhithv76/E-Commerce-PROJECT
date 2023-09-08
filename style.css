@@ -486,7 +486,7 @@ footer .copyright{
 
 /* shop page */
 #page-header{
-  background-image: url("");
+  background-image: url("img/sdeals.png");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -497,7 +497,7 @@ footer .copyright{
   padding: 14px;
 }
 #page-header h2, #page-header p{
-  color: black;
+  color: white;
 }
 #pagination{
   text-align: center;
