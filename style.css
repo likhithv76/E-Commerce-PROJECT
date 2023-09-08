@@ -157,6 +157,9 @@ body{
   font-weight: 700;
   font-size: 15px;
 }
+#hero button:hover{
+  background-color: #c9cbce;
+}
 #feature{
   display: flex;
   align-items: center;
@@ -570,7 +573,7 @@ font-weight: 600;
 
 /* blog */
 #page-header.blog-header{
-  background-image: url("");
+  background-image: url("img/readmore.png");
 }
 #blog{
   padding: 150px 150px 0 150px;
@@ -629,7 +632,7 @@ font-weight: 600;
 
 /*about page p */
 #page-header.about-header {
-  background-image: url("img/about/banner.png");
+  background-image: url("img/readmore.png");
 }
 #about-head {
   display:flex;
