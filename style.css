@@ -317,7 +317,7 @@ color:#da1919;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  background-image: url("");
+  background-image: url("img/cdeals1.jpg");
   min-width: 580px;
   height: 50vh;
   background-size: cover;
@@ -325,7 +325,7 @@ color:#da1919;
 padding: 30px;
 }
 #sm-banner .banner-box2{
-  background-image: url("");
+  background-image: url("img/cdeals2.jpg");
 }
   
 #sm-banner h4{
@@ -360,7 +360,7 @@ padding: 30px;
   flex-direction: column;
   justify-content: center;
   align-items: start;
-  background-image: url("");
+  background-image: url("img/banner3.jpg");
   min-width: 30%;
   height: 30vh;
   background-size: cover;
@@ -369,10 +369,10 @@ padding: 20px;
 margin-bottom: 20px;
 }
 #banner3 .banner-box2{
-  background-image: url("");
+  background-image: url("img/banner3.1.jpg");
 }
 #banner3 .banner-box3{
-  background-image: url("");
+  background-image: url("img/banner3.2.jpg");
 }
 #banner3 h2{
   color: black;
@@ -389,7 +389,7 @@ margin-bottom: 20px;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  background-image: url("");
+  background-image: url("img/banner2.png");
   background-repeat: no-repeat;
   background-position: 20% 30%;
   background-color: blueviolet;
