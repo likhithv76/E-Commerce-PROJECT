@@ -486,7 +486,7 @@ footer .copyright{
 
 /* shop page */
 #page-header{
-  background-image: url("");
+  background-image: url("img/sdeals.png");
   width: 100%;
   height: 40vh;
   background-size: cover;
@@ -497,7 +497,7 @@ footer .copyright{
   padding: 14px;
 }
 #page-header h2, #page-header p{
-  color: black;
+  color: white;
 }
 #pagination{
   text-align: center;
@@ -570,7 +570,7 @@ font-weight: 600;
 
 /* blog */
 #page-header.blog-header{
-  background-image: url("");
+  background-image: url("img/readmore.png");
 }
 #blog{
   padding: 150px 150px 0 150px;
@@ -629,7 +629,7 @@ font-weight: 600;
 
 /*about page p */
 #page-header.about-header {
-  background-image: url("img/about/banner.png");
+  background-image: url("img/readmore.png");
 }
 #about-head {
   display:flex;
