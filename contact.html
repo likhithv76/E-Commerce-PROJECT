@@ -68,14 +68,14 @@
     </div>
 </section>
 <section id="form-details">
-    <form action="">
+    <form onsubmit="emailsend(); reset();return false;">
         <span>LEAVE A MESSAGE</span>
         <h2>We love to hear from you</h2>
-        <input type="text" placeholder="Your Name">
-        <input type="text" placeholder="Email">
-        <input type="text" placeholder="Subject">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <button class="normal">Submit</button>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="text" id="Phone" placeholder="Phone" required>
+        <input type="text" id="email" placeholder="Email" required>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="How can we help you?"></textarea>
+        <button type="submit" class="normal">Submit</button>
     </form>
 <div class="people">
     <div>
@@ -168,7 +168,21 @@
 </footer>
 
 <script src="script.js"></script>
-<script src="https://kit.fontawesome.com/aa0262dd93.js" crossorigin="anonymous"></script>
+<script>
+function emailsend(){
+    Email.send({
+    SecureToken : "08e3d1a1-70f7-4cba-a0c6-828e918fe2fc",
+    To : 'lvg7338@gmail.com',
+    From : "you@isp.com",
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
 
+}
+</script>
+<script src="https://kit.fontawesome.com/aa0262dd93.js" crossorigin="anonymous"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
