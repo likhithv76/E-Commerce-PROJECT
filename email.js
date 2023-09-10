@@ -11,7 +11,7 @@ function emailsend(){
         To : 'slvgowdru8739.com',
         From : "lvg7338@gmail.com",
         Subject : "This is the subject",
-        Body : messagebody();
+        Body : messagebody(),
     }).then(
       message => alert(message)
     );
