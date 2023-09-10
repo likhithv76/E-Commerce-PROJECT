@@ -68,11 +68,11 @@
     </div>
 </section>
 <section id="form-details">
-    <form onsubmit="emailsend(); reset();return false;">
+    <form onsubmit="emailsend(); reset();return false;" method="post">
         <span>LEAVE A MESSAGE</span>
         <h2>We love to hear from you</h2>
         <input type="text" id="name" placeholder="Your Name" required>
-        <input type="text" id="Phone" placeholder="Phone" required>
+        <input type="text" id="phone" placeholder="Phone" required>
         <input type="text" id="email" placeholder="Email" required>
         <textarea name="" id="message" cols="30" rows="10" placeholder="How can we help you?"></textarea>
         <button type="submit" class="normal">Submit</button>
@@ -170,16 +170,22 @@
 <script src="script.js"></script>
 <script>
 function emailsend(){
+let name = document.getElementById("name").value;
+let phone = document.getElementById("phone").value;
+let email = document.getElementById("email").value;
+let message = document.getElementById("message").value;
+
+let body = "Name: " + name + "<br/> Phone: " + phone + "<br/> Email: " + email + "<br/> Message: "+ message;
+
     Email.send({
-    SecureToken : "08e3d1a1-70f7-4cba-a0c6-828e918fe2fc",
+    SecureToken : "90172a7e-541a-4c48-890f-d86738f379b0",
     To : 'guestlv18@gmail.com',
-    From : "you@isp.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
+    From : "guestlv18@gmail.com",
+    Subject : "Message from contact form",
+    Body : body
 }).then(
   message => alert(message)
 );
-
 }
 </script>
 <script src="https://kit.fontawesome.com/aa0262dd93.js" crossorigin="anonymous"></script>
