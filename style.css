@@ -143,7 +143,13 @@ body{
 }
 
 #hero h1{
-  color: #088178;
+  color: #9be9e3;
+}
+#hero h2{
+  color: #fff;
+}
+#hero h4{
+  color: #c9cbce;
 }
 
 #hero button{
