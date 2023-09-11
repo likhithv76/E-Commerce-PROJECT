@@ -153,15 +153,20 @@ body{
 }
 
 #hero button{
-  background-color: greenyellow;
-  color: #088178;
+  background-color: rgb(19, 226, 195);
+  color: black;
   border-radius: 10px;
   border: 0;
   padding: 14px 80px 14px 65px;
   background-repeat: no-repeat;
-  cursor: pointer;
+  cursor: pointer;  
   font-weight: 700;
   font-size: 15px;
+}
+#hero button:hover{
+  color: #fff;
+  background-color: #088178;
+
 }
 #feature{
   display: flex;
