@@ -474,9 +474,9 @@ footer .follow i{
   cursor: pointer;
 }
 footer .install img{
-height: 150px;
+height: 200px;
 width: 200px;
-padding: left;
+padding-left: 15px;
 }
 footer .follow i:hover,
 footer a:hover{
