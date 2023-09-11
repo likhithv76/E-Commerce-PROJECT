@@ -126,7 +126,7 @@ body{
 
 /* HOME PAGE : hero */
 #hero{
-  background-image: url("img/audi.jpg");
+  background-image: url("img/fpimg.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -435,6 +435,8 @@ footer{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+ background: #e3e6f3;
+  box-shadow:  5px 15px 0 rgba(0, 0, 0, 0.1x); 
 }
 
 footer .col{
@@ -538,8 +540,8 @@ font-weight: 600;
   width: 50%;
   padding-top: 30px;
 }
-#prodetails.single-pro-details h4{
-  padding: 40px 0 20px 0;
+#prodetails .single-pro-details h4{
+  padding: 40px 0px 20px 0px;
 }
 #prodetails .single-pro-details h2{
   font-size: 26px;
