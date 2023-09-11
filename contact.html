@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('kyzfbbme8x2r');
+    </script>
+    <!-- End of Async Drift Code -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wiseand computers</title>
@@ -8,6 +37,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
 </head>
 <body>
     
@@ -39,20 +69,20 @@
 <section id="contact-details" class="section-p1">
     <div class="details">
         <span>GET IN TOUCH </span>
-        <h2>Visit our of our agency locations or contact us today</h2>
+        <h2>Visit one of our agency locations or contact us today</h2>
         <h3>Head Office</h3>
 <div>
     <li>
-        <i class="fal fa-map"></i>
-        <p>2nd main cross,Vijaynagar Bengaluru</p>
+        <i class="fa-solid fa-map-location-dot"></i>
+        <p>M G Road, Ramanagara-562159</p>
     </li>
     <li>
         <i class="far fa-envelope"></i>
-        <p>contact@example.com</p>
+        <p>guestlv18@gmail.com</p>
     </li>
     <li>
         <i class="fas fa-phone-alt"></i>
-        <p>contact@example.com</p>
+        <p>+91 6364296619</p>
     </li>
     <li>
         <i class="far fa-clock"></i>
@@ -61,9 +91,9 @@
 </div>
     </div>
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.3739030507463!2d76.5974849738948!3d12.357868028039043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7b31f5d60329%3A0xdb2053f88ebfd38c!2sInfosys%20Mysuru%20Gate%202!5e0!3m2!1sen!2sin!4v1694277454867!5m2!1sen!2sin" width="600" height="450%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d497746.72466822073!2d77.56794509336306!3d12.930440716058015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1skn!2sin!4v1694430696512!5m2!1skn!2sin"
+         width="600px" height="400px" style="border:0;"
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </section>
 <section id="form-details">

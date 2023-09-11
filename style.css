@@ -738,7 +738,8 @@ font-weight: 600;
 }
 #contact-details .map{
   width:55%;
-  height: 400px;
+  height: 100%;
+  margin: 0px;
 }
 #contact-details .map iframe{
   width:100%;
