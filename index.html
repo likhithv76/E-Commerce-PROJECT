@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>wiseand computers</title>
     <link rel="icon" href="img/tab.png">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -21,13 +21,14 @@
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-            </ul>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>       
+             </ul>
         </div>
-       <!-- <div id="mobile">
+       <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
             <i id="bar" class="fa-solid fa-bars"></i>    
-            </div> -->
-
+                    </div>
     </section>
 
 <section id="hero">
@@ -312,10 +313,10 @@
                                                             <a href="#"><span class="material-symbols-outlined cart">shopping_cart</span></a>
                                                         </div>
                                                         <div class="pro" onclick="window.location.href='pdp/h15.html';">
-                                                            <img src="Image 3\ssd samsung\ssd s.jpg" alt="">
+                                                            <img src="Image 3\ssd crucial\ssd.jpg" alt="">
                                                             <div div class="des">
-                                                                <span>SAMSUNG</span>
-                                                                <h5>Samsung T7 1TB solid state disk</h5>
+                                                                <span>Crucial</span>
+                                                                <h5>Crucial BX500 2TB 3D NAND SATA 2.5-Inch Internal SSD</h5>
                                                                 <div class="star">
                                                                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -352,13 +353,13 @@
                     <h4>crazy deal</h4>
                     <h2>Repair</h2>
                     <span>30% off with Warranty Policy</span>
-                    <button class="white">Shop Now...</button>
+                    <a href="shop.html"> <button class="white">Shop Now...</button></a>
                 </div>
                 <div class="banner-box banner-box2">
                     <h4>crazy deal</h4>
                     <h2>Accessories</h2>
                     <span>40% off on Prime deals</span>
-                    <button class="white">Shop Now...</button>
+                   <a href="shop2.html"> <button class="white">Shop Now...</button></a>
                 </div>
             </section>
 <section id="banner3">
@@ -377,8 +378,6 @@
     </div>
 </section>
 
-
-
 <footer class="section-p1">
     <div class="col">
         <!-- <img class="logo" src="\img\Logo.png" alt=""> -->
@@ -389,10 +388,10 @@
         <div class="follow">
             <h4>Follow us</h4>
             <div class="icon">
-                <a href="https://www.facebook.com/login/"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.facebook.com/login/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
             </div>
         </div>
     </div>
@@ -408,9 +407,9 @@
         <h4>My Account</h4>
         <a href="/login.html">Sign In</a>
         <a href="/cart.html">View Cart</a>
-        <a href="#">My Wishlist</a>
+        <a href="/cart.html">My Wishlist</a>
         <a href="/Delivery.html">Track My Order</a>
-        <a href="#">Help</a>
+        <a href="/contact.html">Help</a>
     </div>
     <div class="install">
     <h4>Secured Payment Gateways</h4>
@@ -418,9 +417,10 @@
     </div>
     
     <div class="copyright">
-        <p>copyright ecommerce template</p>
+        <p>©2023-2033 wiseandcomputers.com</p>
     </div>
     </footer>
+    
 
 <script>
     var MainImg = document.getElementById("MainImg");
