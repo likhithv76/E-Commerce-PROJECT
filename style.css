@@ -546,11 +546,14 @@ font-weight: 600;
 
 #pagination2 a{
   text-decoration: none;
-  background-color: #9be9e3;
+  background-color: #088178;
   padding: 15px 20px;
   color:#ffF;
   font-weight: 600;
   border-radius: 4px;
+}
+#pagination2 a:hover{
+  background-color: #1875ab;
 }
 #pagination2 a i{
 font-size: 16px;
