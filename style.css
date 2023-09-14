@@ -131,6 +131,56 @@ body{
 display: none;
 }
 
+#header .search-box  {
+  display: flex;
+  margin: auto 0;
+  height: 35px;
+  line-height: 35px;
+  position: relative;
+  align-items: center;
+}
+#header .search-box input{
+  border: none;
+  outline: none;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 15px;
+  width: 250px;
+  background: #fff;
+
+}
+#header .search-box span{
+  color: #088178;
+  font-size: 20px;
+  background: #fff;
+  height: 100%;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+#header .search-box span:hover{
+  color: white;
+}
+#header .search-box span::after{
+  height: 100%;
+  width: 0%;
+  content: '';
+  background: #088178;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transition: 0.3s;
+}
+#header .search-box span:hover::after{
+  width: 100%;
+}
+
+
+
+
+
 /* HOME PAGE : hero */
 #hero{
   background-image: url("img/fpimg.png");

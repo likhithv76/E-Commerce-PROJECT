@@ -12,10 +12,18 @@
 <body>
     
     <section id="header">
-        <a href="#"> <img style="height:60px;padding: 0%;" src="img/Logo.png" class="logo" alt=""></a>
+        <a href="index.html"> <img style="height:60px;padding: 0%;" src="img/Logo.png" class="logo" alt=""></a>
         <div>
+            <!-- <div class="search-box">
+                <input type="search" placeholder="Search here">
+                <span class="fa fa-search"></span>
+            </div> -->
             <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
+                <div class="search-box">
+                    <input type="search" id="search" placeholder="Search here" onkeyup="search()" autocomplete="off">
+                    <span class="fa fa-search" onclick="search()"></span>
+                </div>               
+                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="login.html">Login</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -70,7 +78,7 @@
 <section  id="product1" class="section-p1">
     <h2>Products</h2>
     <p>Trusted Collection</p>
-    <div class="pro-container">
+    <div class="pro-container" id="products">
         <div class="pro" onclick="window.location.href='pdp/h1.html';">
             <img src="Images\DEll com\1.webp" alt="">
             <div div class="des">
@@ -446,6 +454,6 @@
 
 <script src="script.js"></script>
 <script src="https://kit.fontawesome.com/aa0262dd93.js" crossorigin="anonymous"></script>
-
+<script src="search.js"></script>
 </body>
 </html>
