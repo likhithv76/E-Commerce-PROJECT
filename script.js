@@ -12,3 +12,10 @@ if(close){
         nav.classList.remove ('active');
     })
 }
+
+
+
+var preloader = document.getElementById('loader');
+function preloader(){
+    preloader.style.display = 'none';
+}
