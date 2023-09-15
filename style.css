@@ -7,7 +7,7 @@
   box-sizing: border-box;
   font-family: 'Spartan', sans-serif;
 }
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
   display: none;
 }
 h1{
@@ -595,6 +595,9 @@ font-weight: 600;
 #pagination2{
   text-align: center;
 }
+#pagination a:hover{
+  opacity: .8;
+}
 
 #pagination2 a{
   text-decoration: none;
@@ -659,6 +662,9 @@ font-weight: 600;
   background: #088178;
   color: #fff;
 
+}
+#prodetails .single-pro-details button:hover{
+  opacity: 0.8;
 }
 #prodetails .single-pro-details span{
   line-height: 25px;
