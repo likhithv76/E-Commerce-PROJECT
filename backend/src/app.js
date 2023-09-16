@@ -2,7 +2,8 @@ const express = require("express");
 const path =  require("path");
 const app = express();
 require("./db/conn");
-const Register = require("./models/registers")
+const Register = require("./models/registers");
+const { create } = require("domain");
 
 const port = process.env.PORT || 3000;
 
@@ -23,7 +24,12 @@ app.get("/",(req,res) => {
 app.get("/register",(req,res) => {
     res.render("register")
 });
-
+app.get("/login",(req,res) => {
+    res.render("login")
+});
+app.get("/cart",(req,res) => {
+    res.render("cart")
+});
 //creating a newuser in db
 app.post("/register",async (req,res) => {
 try{
@@ -47,7 +53,7 @@ const registeruser = new Register({
     postalcode :req.body.postalcode
 })
 const registered = await registeruser.save();
-res.status(201).render(register);
+res.status(201).render("login");
     }else{
         res.send("Passwords not Matching")
     }
@@ -57,6 +63,26 @@ catch(error){
     res.status(400).send(error);
 }
 
+})
+
+//login check
+
+app.post("/login",async(req,res)=>{
+    try{
+const email = req.body.email;
+const password = req.body.password;
+
+const useremail = await Register.findOne({email:email});
+
+if(useremail.password === password){
+    res.status(201).render("cart");
+}else{
+    res.send("Invlaid login Details");
+}
+    }
+    catch(error){
+        res.status(400).send("Invalid login Details")
+    }
 })
 
 app.listen(port,() =>{

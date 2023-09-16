@@ -7,9 +7,8 @@
         <title>wiseand computers</title>
         <link rel="icon" href="img\logo.jpg">
 
-        <link rel="stylesheet" href="stylelogin.css">
+        <link rel="stylesheet" href="stylelogin2.css">
         <link rel="stylesheet" href="style.css">
-                
         <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
                         
     </head>
@@ -18,12 +17,12 @@
             <a href="#"> <img style="height:60px;padding: 0%;" src="img/Logo.png" class="logo" alt=""></a>
             <div>
                 <ul id="navbar">
-                    <li><a  href="index.html">Home</a></li>
-                    <li><a href="shop.html">Shop</a></li>
-                    <li><a class="active" href="login.html">Login</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a  href="http://localhost:5501/index.html">Home</a></li>
+                    <li><a  href="http://localhost:5501/shop.html">Shop</a></li>
+                    <li><a class="active"  href="http://localhost:3000/login">Login</a></li>
+                    <li><a  href="http://localhost:5501/blog.html">Blog</a></li>
+                    <li><a  href="http://localhost:5501/about.html">About</a></li>
+                    <li><a  href="http://localhost:5501/contact.html">Contact</a></li>
                     <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
                     <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>       
                 </ul>
@@ -37,13 +36,13 @@
             <div class="form login">
                 <div class="form-content">
                     <header>Login</header>
-                    <form action="#">
+                    <form action="/login" method= "POST">
                         <div class="field input-field">
-                            <input type="email" placeholder="Email" class="input">
+                            <input type="email" placeholder="Email" name="email" class="input">
                         </div>
 
                         <div class="field input-field">
-                            <input type="password" placeholder="Password" class="password">
+                            <input type="password" placeholder="Password" name ="password" class="password">
                             <i class='bx bx-hide eye-icon'></i>
                         </div>
 
@@ -52,12 +51,12 @@
                         </div>
 
                         <div class="field button-field">
-                            <button>Login</button>
+                            <button type="submit">Login</button>
                         </div>
                     </form>
 
                     <div class="form-link">
-                        <span>Don't have an account? <a href="http://localhost:3000/register">Register</a></span>
+                        <span>Don't have an account? <a href="http://localhost:3000/">Register</a></span>
                     </div>
                 </div>
 
@@ -82,6 +81,5 @@
         <script src="script.js"></script>
         <script src="scriptlogin.js"></script>
         <script src="https://kit.fontawesome.com/aa0262dd93.js" crossorigin="anonymous"></script>
-
     </body>
 </html>
