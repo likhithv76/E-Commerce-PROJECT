@@ -1,0 +1,17 @@
+
+
+.sty{
+    font-size: 18px !important;
+    color: black !important;
+}
+
+.uk-border-circle{
+    width: 100px !important;
+    height: 100px !important;
+}
+.fa-cart-arrow-down{
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 20px;
+}

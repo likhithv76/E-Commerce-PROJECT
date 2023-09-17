@@ -279,13 +279,13 @@ margin-bottom: 10px;
 #product1{
   text-align: center;
 }
-#product1 .pro-container{
+#product1 .container{
   justify-content: space-between;
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
 }
-#product1 .pro{
+#product1 .row{
   width: 23%;
   min-width: 250px;
   padding: 10px 12px;
@@ -297,43 +297,43 @@ margin: 15px 0;
 transition: 0.2s ease;
 position: relative;
 }
-#product1 .pro:hover{
+#product1 .row:hover{
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-#product1 .pro img{
+#product1 .row img{
   width: 100%;
   border-radius: 20px;
 
 }
-#product1 .pro .des{
+#product1 .row .card-body{
   text-align: start;
   padding: 10px 0;
 
 }
 
-#product1 .pro .des span{
+#product1 .row .card-body span{
   color: #606063;
   font-size: 12px;
 }
-#product1 .pro .des h5{
+#product1 .row .card-body h5{
   padding-top: 7px;
   color: #1a1a1a;
   font-size: 14px;
 }
 
-#product1 .pro .des i
+#product1 .row .card-body i
 {
   color: rgb(243, 181, 25);
   font-size: 12px;
 }
-#product1 .pro .des  h4{
+#product1 .row .card-body  h4{
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
   color:#088178;
 }
-#product1 .pro .cart{
+#product1 .row .cart{
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -1164,10 +1164,10 @@ padding-left: 20px;
   #feature .fe-box{
     margin: 15px 15px ;
   }
-#product1 .pro-container{
+#product1 .container{
   justify-content: center;
 }
-#product1 .pro{
+#product1 .row{
   margin: 15px 15px;
 }
 #banner{
