@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Start of Async Drift Code -->
+        <script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('kyzfbbme8x2r');
+    </script>
+        <!-- End of Async Drift Code -->
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>wiseand computers</title>
+        <link rel="icon" href="img\logo.jpg">
+        <script src="https://kit.fontawesome.com/a076d05399.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    </head>
+    <body>
+
+        <section id="header">
+            <a href="#"> <img style="height:60px;padding: 0%;"
+                    src="img/Logo.png" class="logo" alt></a>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
+                    <li><a href="http://localhost:3000/login">Login</a></li>
+                </ul>
+            </div>
+            <div id="mobile">
+                <i id="bar" class="fa-solid fa-bars"></i>
+            </div>
+        </section>
+
+        <section id="page-header" class="about-header">
+            <h2>#Let's talk</h2>
+            <p>LEAVE A MESSAGE, We love to hear from you!
+
+            </p>
+        </section>
+        <section id="contact-details" class="section-p1">
+            <div class="details">
+                <span>GET IN TOUCH </span>
+                <h2>Visit one of our agency locations or contact us today</h2>
+                <h3>Head Office</h3>
+                <div>
+                    <li>
+                        <i class="fa-solid fa-map-location-dot"></i>
+                        <p>M G Road, Ramanagara-562159</p>
+                    </li>
+                    <li>
+                        <i class="far fa-envelope"></i>
+                        <p>guestlv18@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+91 6364296619</p>
+                    </li>
+                    <li>
+                        <i class="far fa-clock"></i>
+                        <p>Monday to Sunday: 9:00am to 10:00pm</p>
+                    </li>
+                </div>
+            </div>
+        </section>
+        <!-- map section -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13091.457269745213!2d77.24605213674927!3d12.706012204720365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae4d97f56ae1cb%3A0xcc6969ae8f34a477!2z4LKc4LK-4LKo4LKq4LKmIOCysuCzhuCzguCzleCylQ!5e0!3m2!1skn!2sin!4v1694968823669!5m2!1skn!2sin"
+            width="1600" height="400" style="border:0;" allowfullscreen
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- form section -->
+        <section id="form-details">
+            <form onsubmit="emailsend(); reset();return false;" method="post">
+                <span>LEAVE A MESSAGE</span>
+                <h2>We love to hear from you</h2>
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="text" id="phone" placeholder="Phone" required>
+                <input type="text" id="email" placeholder="Email" required>
+                <textarea name id="message" cols="30" rows="10"
+                    placeholder="How can we help you?"></textarea>
+                <button type="submit" class="normal">Submit</button>
+            </form>
+            <div class="people">
+                <div>
+                    <img src="img/yogesh.jpg" alt>
+                    <p><span>Yogesh G P</span> Senior Marketing Manager <br>
+                        Phone: +00012300077 <br>Email: contact@gmail.com </p>
+                </div>
+                <div>
+                    <img src="img/manoj.jpg" alt>
+                    <p><span>Manoj Gowda J M</span> Senior Marketing Manager <br>
+                        Phone: +00012300077 <br>Email: contact@gmail.com </p>
+                </div>
+                <div>
+                    <img src="img\pk.jpg" alt>
+                    <p><span>Pavan Kumar V</span> Senior Marketing Manager <br>
+                        Phone: +00012300077 <br>Email: contact@gmail.com </p>
+                </div>
+                <div>
+                    <img src="img\lk.jpg" alt>
+                    <p><span>Likhith Gowda V</span> Senior Marketing Manager <br>
+                        Phone: +00001230099 <br>Email: contact@gmail.com</p>
+                </div>
+            </section>
+
+            <section id="feature" class="section-p1">
+                <div class="fe-box">
+                    <img src="\img\fs7.png" alt>
+                    <h6>Save Money</h6>
+                </div>
+                <div class="fe-box">
+                    <img src="\img\fs8.png" alt>
+                    <h6>Replacement</h6>
+                </div>
+                <div class="fe-box">
+                    <img src="\img\fs3.png" alt>
+                    <h6>Fast Delivery</h6>
+                </div>
+                <div class="fe-box">
+                    <img src="\img\fs4.png" alt>
+                    <h6>Free Shipping</h6>
+                </div>
+                <div class="fe-box">
+                    <img src="\img\fs5.png" alt>
+                    <h6>24/7 Services</h6>
+                </div>
+                <div class="fe-box">
+                    <img src="\img\fs6.png" alt>
+                    <h6>Special offer</h6>
+                </div>
+            </section>
+
+            <footer class="section-p1">
+                <div class="col">
+                    <!-- <img class="logo" src="\img\Logo.png" alt=""> -->
+                    <h4>Contact</h4>
+                    <p><strong>Address:</strong>Ramanagara-562159</p>
+                    <p><strong>Phone:</strong>+91 6364296619</p>
+                    <p><strong>Hours:</strong>24hrs</p>
+                    <div class="follow">
+                        <h4>Follow us</h4>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/login/"
+                                target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/" target="_blank"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h4>About</h4>
+                    <a href="/about.html">About us</a>
+                    <a href="/Delivery.html">Delivery Information</a>
+                    <a href="/Policy.html">Privacy Policy</a>
+                    <a href="/Policy.html">Terms & Conditions</a>
+                    <a href="/contact.html">Contact us</a>
+                </div>
+                <div class="col">
+                    <h4>My Account</h4>
+                    <a href="/login.html">Sign In</a>
+                <a href="http://localhost:3000/login">View Cart</a>
+                <a href="http://localhost:3000/login">My Wishlist</a>
+                <a href="/Delivery.html">Track My Order</a>
+                <a href="/contact.html">Help</a>
+                </div>
+                <div class="install">
+                    <h4>Secured Payment Gateways</h4>
+                    <img src="\img\pytm.jpg" alt>
+                </div>
+
+                <div class="copyright">
+                    <p>©2023-2033 wiseandcomputers.com</p>
+                </div>
+            </footer>
+
+            <script src="script.js"></script>
+            <script>
+function emailsend(){
+let name = document.getElementById("name").value;
+let phone = document.getElementById("phone").value;
+let email = document.getElementById("email").value;
+let message = document.getElementById("message").value;
+
+let body = "Name: " + name + "<br/> Phone: " + phone + "<br/> Email: " + email + "<br/> Message: "+ message;
+
+    Email.send({
+    SecureToken : "90172a7e-541a-4c48-890f-d86738f379b0",
+    To : 'guestlv18@gmail.com',
+    From : "guestlv18@gmail.com",
+    Subject : "Message from contact form",
+    Body : body
+}).then(
+  message => alert(message)
+);
+}
+</script>
+            <script src="https://kit.fontawesome.com/aa0262dd93.js"
+                crossorigin="anonymous"></script>
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,43 @@
+
+.loader{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+ 
+  /* loading2 */
+        @keyframes ldio-2u1lnsu47vi {
+          0% { background: #e76a24 }
+          12.5% { background: #ed5d0a }
+          12.625% { background: #08190f }
+          100% { background: #7c9fe5 }
+        }
+        .ldio-2u1lnsu47vi div {
+          position: absolute;
+          width: 40px;
+          height: 40px;
+          background: #1c4595;
+          animation: ldio-2u1lnsu47vi 1s linear infinite;
+        }
+        .loadingio-spinner-blocks-qtpfz5t1qa {
+          width: 200px;
+          height: 200px;
+          display: inline-block;
+          overflow: hidden;
+          background: transparent;
+        }
+        .ldio-2u1lnsu47vi {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          transform: translateZ(0) scale(1);
+          backface-visibility: hidden;
+          transform-origin: 0 0; /* see note above */
+        }
+        .ldio-2u1lnsu47vi div { box-sizing: content-box; }
